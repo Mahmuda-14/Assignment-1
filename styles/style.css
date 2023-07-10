@@ -1,15 +1,22 @@
+body{font-family: Lato;}
 
 .first-section-container {
-    font-family: Lato;
+    width: 100%;
     display: flex;
     background-color: #E554731A;
     justify-content: space-between;
     padding: 30px 30px 0px 150px;
+    /* trbl */
     align-items: center;
-  
+
 
 }
-.greet{ margin:40px 40px 0px 40px;}
+
+.greet {
+    margin: 40px 40px 0px 40px;
+    
+}
+
 .greet-content {
     color: #272727;
     font-size: 62px;
@@ -22,10 +29,10 @@
 .greet-para {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
-    font-weight: 400;  
+    font-weight: 400;
     margin-top: 5px;
-    margin-bottom: 15px; 
-   
+    margin-bottom: 15px;
+
 
 
 }
@@ -39,13 +46,23 @@
     font-weight: 700;
     padding: 17px 30px;
 }
-.img{
-    padding:5px 25px;
+
+.img {
+    padding: 5px 100px;
 }
 
 .first-img {
     width: 500px;
-    margin:40px 40px 0px 40px;
+    margin: 40px 40px 0px 40px;
 
 
+}
+
+/* section-2 */
+.part-2-container {
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
 }
