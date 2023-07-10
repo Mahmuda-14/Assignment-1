@@ -1,14 +1,12 @@
-header {
-    width: 100%;
-    height: 20%;
-  
-}
 
 .first-section-container {
     font-family: Lato;
     display: flex;
-    padding: 80px 120px;
     background-color: #E554731A;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+  
 
 }
 
@@ -24,10 +22,10 @@ header {
 .greet-para {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
-    font-weight: 400;
-    margin-right: 5px;
+    font-weight: 400;  
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px; 
+   
 
 
 }
@@ -41,11 +39,13 @@ header {
     font-weight: 700;
     padding: 17px 30px;
 }
+.img{
+    padding:5px 25px;
+}
 
 .first-img {
     width: 500px;
-    /* padding-left: 90px; */
-   margin:40px 40px;
+    margin:40px 40px 0px 40px;
 
 
 }
