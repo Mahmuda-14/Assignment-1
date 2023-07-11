@@ -135,7 +135,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .last-para {
@@ -143,12 +143,50 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    
+
 }
 
 .img-1 {
-    /* border: 1px solid #ddd; */
     border-radius: 10px;
     padding: 5px;
     width: 236px;
+}
+
+.box {
+
+    background-image: url("../image/Rectangle\ 9.png");
+    border-radius: 10px;
+    
+    height: 200px;
+    padding: 80px;
+    background-size: auto;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin: 80px 95px;
+    
+}
+
+.input {
+    display: inline-flex;
+  
+}
+
+.inp {
+    padding: 17px 250px;
+    border-radius: 10px;
+    margin-left:100px;
+    
+}
+
+.btn-3 {
+
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 17px 34px;
+    margin-left:15px;
+    border: none;
+
 }
